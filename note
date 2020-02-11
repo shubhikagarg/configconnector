@@ -1,0 +1,18 @@
+In which I am using GCP SQL instance as kubernetes resource, Following are the Steps for the Same 
+   
+1.       Install config connector in GKE cluster 
+2.       Create service account with owner permission of config connector and use its key(json file)  as kubernetes secret 
+3.       Then create namespace same as GCP project name
+4.       Create yaml For Cloud SQL database which kind from  crds created through  config connector .
+5.       Yaml  file:
+ 
+ 
+ 
+6.       Kubernetes resource of sql instance type is created within namespace cybage-devops
+ 
+ 
+ 
+ 
+ 
+ 
+7.       SQL instance in GCP console 
